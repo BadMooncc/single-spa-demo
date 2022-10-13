@@ -5,7 +5,7 @@ import router from './router'
 import singleSpaVue from 'single-spa-vue'
 
 Vue.config.productionTip = false
-
+console.log(process.env.publicPath, 'process.env.publicPath')
 const appOptions = {
   el: '#microApp',
   router,

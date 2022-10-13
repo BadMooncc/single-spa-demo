@@ -1,9 +1,6 @@
 
-console.log(process.env, 'process.env')
-
 module.exports = {
-  // 告诉子应用在这个地址加载静态资源，否则会去基座应用的域名下加载
-  publicPath: process.env.publicPath,
+  // publicPath: process.env.publicPath,
   // 开发服务器
   devServer: {
     port: 8081
